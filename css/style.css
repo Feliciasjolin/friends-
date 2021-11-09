@@ -1,0 +1,192 @@
+*{
+margin: 0;
+padding: 0;
+}
+  h1 {
+  width: 100%;
+ height: auto;
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5em;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(209, 197, 240);
+  font-family: 'Scheherazade New', serif;
+  font-size: 1.2em;
+}
+/* här tar jag bort punkteran/prinkarna på "ul", färg, font och size på texten.*/
+
+
+.me {
+  float: left;
+}
+
+.a {
+  background-color: rgb(135, 102, 187);
+}
+
+.me a {
+ display: block;
+ text-align: center;
+ color: rgb(4, 1, 2);
+ padding: 20px 20px;
+ text-decoration: none;
+}
+/*tar bort strecken under länkarna och gör texten till en svart färg och bestämen att det är ett block*/
+
+.me a:hover {
+  color: rgb(255, 255, 255);
+}
+/* när man rör med pilen ovanför så får texten en vit färg*/
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+ol {
+font-family: 'Montserrat', sans-serif;
+}
+
+iframe {
+  border: 0;
+}
+
+.href {
+  display: block;
+  background-color: rgba(231, 209, 233, 0.6);
+  text-align: center;
+  text-decoration: none;
+  color: rgb(4, 1, 2);
+  font-size: 1.3em;
+  padding: 20px 20px;
+}
+
+.img {
+  width: 100%;
+}
+
+
+@media only screen and (max-width:768px){
+
+  .yt {
+    width:500px;
+  }
+
+  /*här nedan ändrar jag menyn när det är en ipad eller mindre */
+
+  h1 {
+    border-bottom:15px solid rgb(135, 102, 187);
+    padding: 10px;
+  }
+
+  ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  width: 10%;
+  background-color: rgb(209, 197, 240);
+  font-family: 'Scheherazade New', serif;
+  font-size: 1.17em;
+  position: fixed;
+  height: 30%;
+}
+
+.me a {
+  display: block;
+  color: rgb(4, 1, 2);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.me a.a {
+ background-color: rgb(209, 197, 240);
+}
+/*här gör jag så att "hem" på menyn blir i samma färg som dem andra.*/
+.me a:hover {
+  color: rgb(255, 255, 255) ;
+}
+}
+
+.två{
+  text-decoration: none;
+  color: rgb(129, 115, 209);
+  font-family: 'Scheherazade New', serif;
+  font-size: 1.2em;
+}
+
+.två:hover {
+  color: rgb(92, 120, 215);
+}
+/*två="tillbaka till hem"*/
+
+
+ .l {
+width: 60%;
+ }
+ /* gör bilden på phoebe mindre*/
+
+ embed {
+   width: 60%;
+ }
+ /* embed är gifen på ross*/
+
+ .jf {
+   width: 60%;
+ }
+  /* gör så att bilden på joey passar bättre in sidan och matchar med dem andra bilderna*/
+
+  .boy {
+    width: 60%;
+  }
+
+  .ök {
+    font-family: 'Playfair Display', serif;
+    border-top: 0px;
+  }
+
+  #rac {
+    border-top:5px solid rgb(209, 197, 240);
+    border-bottom:5px solid rgb(209, 197, 240);
+    padding: 10px;
+  }
+
+  #pep {
+    border-bottom:5px solid rgb(209, 197, 240);
+    padding: 10px;
+  }
+
+  #mim {
+    border-bottom:5px solid rgb(209, 197, 240);
+    padding: 10px;
+  }
+
+  #ros {
+    border-bottom:5px solid rgb(209, 197, 240);
+    padding: 10px;
+  }
+
+#jt {
+  border-bottom:5px solid rgb(209, 197, 240);
+  padding: 10px;
+}
+  #hch {
+    border-bottom:5px solid rgb(209, 197, 240);
+    padding: 10px;
+  }
+
+  .pök {
+    padding: 50px;
+  }
+
+  .igot {
+    width: 60%;
+  }
+
+.omg {
+  width: 60%;
+}
