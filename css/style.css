@@ -6,6 +6,8 @@ padding: 0;
 head {
   background-color: rgb(255, 255, 255);
 }
+
+/*första sidan */
   h1 {
   width: 100%;
  height: auto;
@@ -23,8 +25,8 @@ ul {
 /* här tar jag bort punkteran/prinkarna på "ul", färg, font och size på texten.*/
 
 
-/*.me {
-  float: left;*/
+.me {
+  float: left;
 }
 
 .a {
@@ -116,6 +118,7 @@ iframe {
 }
 }
 
+/* qoutes sidan*/
 .två{
   text-decoration: none;
   color: rgb(129, 115, 209);
@@ -148,11 +151,16 @@ width: 60%;
     width: 60%;
   }
 
-  .ök {
-    font-family: 'Playfair Display', serif;
-    border-top: 0px;
+  .igot {
+    width: 60%;
   }
 
+.omg {
+  width: 60%;
+}
+
+
+/*karaktärer sidan*/
   .joey {
     width: 100%;
   }
@@ -231,14 +239,11 @@ width: 60%;
     padding: 10px;
   }
 
+  .ök {
+    font-family: 'Playfair Display', serif;
+    border-top: 0px;
+  }
+
   .pök {
     padding: 50px;
   }
-
-  .igot {
-    width: 60%;
-  }
-
-.omg {
-  width: 60%;
-}
