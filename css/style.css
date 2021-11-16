@@ -61,7 +61,7 @@ font-family: 'Montserrat', sans-serif;
 iframe {
   border: 0;
   width:560px;
-  height: 315px; 
+  height: 315px;
 
 }
 
@@ -122,14 +122,14 @@ iframe {
 }
 
 /* qoutes sidan*/
-.två{
+.tva{
   text-decoration: none;
   color: rgb(129, 115, 209);
   font-family: 'Scheherazade New', serif;
   font-size: 1.2em;
 }
 
-.två:hover {
+.tva:hover {
   color: rgb(92, 120, 215);
 }
 /*två="tillbaka till hem"*/
@@ -242,11 +242,11 @@ width: 60%;
     padding: 10px;
   }
 
-  .ök {
+  .ok {
     font-family: 'Playfair Display', serif;
     border-top: 0px;
   }
 
-  .pök {
+  .pok {
     padding: 50px;
   }

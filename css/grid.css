@@ -11,7 +11,7 @@
   }
 
   .yt {
-    grid-column: 5/7;
+    grid-column: 4/-4;
     grid-row: auto;
   }
 }
@@ -75,6 +75,23 @@ ol {
   grid-row: 10/12;
 }
 /* s är lika med brödtexten fär underrubriken säsonger*/
+
+@media only screen and (max-width:375px) {
+  .d {
+    grid-column: 3/-2;
+    grid-row:auto;
+  }
+
+  ol {
+    grid-column: 3/6;
+    grid-row: auto;
+  }
+
+  .s {
+    grid-column: 3/-2;
+    grid-row: auto;
+  }
+}
 
 /*qoutes sidan*/
 .då {
