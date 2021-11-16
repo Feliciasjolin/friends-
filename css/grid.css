@@ -12,7 +12,7 @@
 
   .yt {
     grid-column: 4/-4;
-    grid-row: auto;
+    grid-row: 2/6;
   }
 }
 
@@ -79,22 +79,22 @@ ol {
 @media only screen and (max-width:375px) {
   .d {
     grid-column: 3/-2;
-    grid-row:auto;
+    grid-row:8/9;
   }
 
   ol {
     grid-column: 3/6;
-    grid-row: auto;
+    grid-row:10/11 ;
   }
 
   .s {
     grid-column: 3/-2;
-    grid-row: auto;
+    grid-row:11/12 ;
   }
 }
 
 /*qoutes sidan*/
-.då {
+.do {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(10, 1fr);
@@ -108,7 +108,7 @@ ol {
 }
 /* q=quotes*/
 
-.två {
+.tva {
   grid-column: 2/4;
   grid-row: 2/3;
 }
@@ -295,20 +295,20 @@ h3 {
 }
 /*dem med id är texten till bilden*/
 
-.ök {
+.ok {
   grid-column:  1/-1;
   grid-row:24/25;
   text-align: center;
 }
 /*ök=övrika karaktärer*/
 
-.pök {
+.pok {
   grid-column: 3/-3;
   grid-row: 25/26;
   text-align: center;
 }
 
-.länkJ {
+.laenkJ {
   grid-column: 3/6;
   grid-row: 26/27;
   text-align: center;
@@ -378,19 +378,19 @@ h3 {
   }
 
 
-  .ök {
+  .ok {
     grid-column:  1/-1;
     grid-row:35/36;
     text-align: center;
   }
 
 
-  .pök {
+  .pok {
     grid-column: 3/9;
     grid-row: 36/37;
   }
 
-  .länkJ {
+  .laenkJ {
     grid-column: 3/6;
     grid-row: 37/38;
     text-align: center;
