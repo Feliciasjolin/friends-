@@ -364,9 +364,8 @@ h3 {
 
 
   .pök {
-    grid-column: 3/-3;
+    grid-column: 3/9;
     grid-row: 36/37;
-    text-align: center;
   }
 
   .länkJ {

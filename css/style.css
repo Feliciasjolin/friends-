@@ -60,6 +60,8 @@ font-family: 'Montserrat', sans-serif;
 
 iframe {
   border: 0;
+  width: 100%;
+
 }
 
 .href {
@@ -80,7 +82,7 @@ iframe {
 @media only screen and (max-width:768px){
 
   .yt {
-    width:500px;
+    width:100px;
   }
 
   /*här nedan ändrar jag menyn när det är en ipad eller mindre */
