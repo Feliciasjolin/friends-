@@ -23,8 +23,8 @@ ul {
 /* här tar jag bort punkteran/prinkarna på "ul", färg, font och size på texten.*/
 
 
-.me {
-  float: left;
+/*.me {
+  float: left;*/
 }
 
 .a {
@@ -151,6 +151,54 @@ width: 60%;
   .ök {
     font-family: 'Playfair Display', serif;
     border-top: 0px;
+  }
+
+  .joey {
+    width: 100%;
+  }
+
+  .mon {
+    width: 100%;
+  }
+
+  .cha {
+    width: 100%;
+  }
+
+  .ross {
+    width: 100%;
+  }
+
+  .phe {
+    width: 100%;
+  }
+
+  .rah {
+    width: 100%;
+  }
+
+  .rai {
+    width: 100%;
+  }
+
+  .phep {
+    width: 100%;
+  }
+
+  .moni {
+    width: 100%;
+  }
+
+  .roos {
+    width: 100%;
+  }
+
+  .jee {
+    width: 100%;
+  }
+
+  .cic {
+    width: 100%;
   }
 
   #rac {

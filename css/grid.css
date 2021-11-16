@@ -11,75 +11,7 @@
   }
 }
 
-@media only screen and (max-width:375px){
-
-  #rac {
-    grid-column: 3/9;
-    grid-row: 12/13;
-  }
-
-  .rai {
-    grid-column:3/6;
-    grid-row: 11/13;
-  }
-
-
-  .phep {
-    grid-column: 3/6;
-    grid-row: 13/15;
-  }
-
-  #pep {
-    grid-column: 3/9;
-    grid-row: 14/15;
-  }
-
-  .moni {
-    grid-column: 3/6;
-    grid-row: 15/17;
-  }
-
-  #mim {
-    grid-column:3/9;
-    grid-row: 16/17;
-    text-align: center;
-  }
-
-  .roos {
-    grid-column: 3/6;
-    grid-row: 17/19;
-  }
-
-  #ros {
-    grid-column: 3/9;
-    grid-row: 18/19;
-    text-align: center;
-  }
-
-  .jee {
-    grid-column: 3/6;
-    grid-row: 19/21;
-  }
-
-  #jt {
-    grid-column: 3/9;
-    grid-row: 20/21;
-    text-align: center;
-  }
-
-  .cic {
-    grid-column: 3/6;
-    grid-row: 21/23;
-  }
-
-  #hch {
-    grid-column: 3/9;
-    grid-row: 22/23;
-    text-align: center;
-  }
-
-}
-
+/* hem/första sidan*/
 .hej {
   display: grid;
   grid-gap: 5px;
@@ -138,6 +70,8 @@ ol {
   grid-row: 10/12;
 }
 /* s är lika med brödtexten fär underrubriken säsonger*/
+
+/*qoutes sidan*/
 .då {
   display: grid;
   grid-gap: 10px;
@@ -163,8 +97,6 @@ embed {
   grid-row: 3/6;
   text-align: center;
 }
-
-
 
 
 .l {
@@ -197,6 +129,7 @@ embed {
   grid-row: 18/21;
 }
 
+/* karaktär sidan*/
 .hi{
   display: grid;
   grid-gap: 15px;
@@ -357,4 +290,89 @@ h3 {
   grid-column: 3/6;
   grid-row: 26/27;
   text-align: center;
+}
+
+@media only screen and (max-width:375px){
+
+
+  .rai {
+    grid-column:3/-3;
+    grid-row: 11/13;
+  }
+
+  #rac {
+    grid-column: 3/9;
+    grid-row: 13/15;
+  }
+
+  .phep {
+    grid-column: 3/-3;
+    grid-row: 15/17;
+  }
+
+  #pep {
+    grid-column: 3/9;
+    grid-row: 17/19;
+  }
+
+  .moni {
+    grid-column: 3/-3;
+    grid-row: 19/21;
+  }
+
+  #mim {
+    grid-column:3/9;
+    grid-row: 21/23;
+  }
+
+  .roos {
+    grid-column: 3/-3;
+    grid-row: 23/25;
+  }
+
+  #ros {
+    grid-column: 3/9;
+    grid-row: 25/27;
+  }
+
+  .jee {
+    grid-column: 3/-3;
+    grid-row: 27/29;
+  }
+
+  #jt {
+    grid-column: 3/9;
+    grid-row: 29/31;
+  }
+
+  .cic {
+    grid-column: 3/6;
+    grid-row: 31/33;
+  }
+
+  #hch {
+    grid-column: 3/9;
+    grid-row: 33/35;
+  }
+
+
+  .ök {
+    grid-column:  1/-1;
+    grid-row:33/34;
+    text-align: center;
+  }
+
+
+  .pök {
+    grid-column: 3/-3;
+    grid-row: 34/35;
+    text-align: center;
+  }
+
+  .länkJ {
+    grid-column: 3/6;
+    grid-row: 36/37;
+    text-align: center;
+  }
+
 }
