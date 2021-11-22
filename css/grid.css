@@ -85,7 +85,6 @@ ol {
   ol {
     grid-column: 4/9;
     grid-row:10/11 ;
-    text-align: center;
   }
 
   .s {

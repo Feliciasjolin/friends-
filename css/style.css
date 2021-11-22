@@ -82,9 +82,9 @@ iframe {
 
 @media only screen and (max-width:768px){
 
-  /*.yt {
+  .yt {
     width:100px;
-  }*/
+  }
 
   /*här nedan ändrar jag menyn när det är en ipad eller mindre */
 
@@ -247,4 +247,10 @@ width: 60%;
 
   .pok {
     padding: 50px;
+  }
+
+  @media only screen and (max-width:375px){
+    .pok {
+      padding: 0px;
+    }
   }
