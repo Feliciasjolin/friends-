@@ -11,8 +11,8 @@
   }
 
   .yt {
-    grid-column: 4/9;
-    grid-row: 2/6;
+    grid-column: 4/10;
+    grid-row: 3/7;
   }
 }
 
@@ -387,7 +387,7 @@ h3 {
 
 
   .pok {
-    grid-column: 3/9;
+    grid-column: 2/-2;
     grid-row: 36/37;
   }
 
