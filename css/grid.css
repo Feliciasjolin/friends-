@@ -1,20 +1,4 @@
-@media only screen and (max-width:768px){
 
-  ul{
-    grid-column: 1/2;
-    grid-row: 1/3;
-}
-
-  h2 {
-    grid-column: 1/-1;
-    text-align: center;
-  }
-
-  .yt {
-    grid-column: 4/10;
-    grid-row: 3/7;
-  }
-}
 
 /* hem/första sidan*/
 .hej {
@@ -75,6 +59,23 @@ ol {
   grid-row: 10/12;
 }
 /* s är lika med brödtexten fär underrubriken säsonger*/
+@media only screen and (max-width:768px){
+
+  ul{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+  h2 {
+    grid-column: 1/-1;
+    text-align: center;
+  }
+
+  .yt {
+    grid-column: 4/10;
+    grid-row: 3/7;
+  }
+}
 
 @media only screen and (max-width:375px) {
   .d {
